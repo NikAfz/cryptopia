@@ -4,7 +4,7 @@ export default function NavBar(){
   return(
     <>
       <div className="Header--container">
-        <img className="logo--img" src="..public/logo/logo-transparent-svg.svg" alt="logo" onclick="location.href='http://www.google.com';" />
+        <img className="logo--img" src="../public/logo/logo-transparent-svg.svg" alt="logo" onclick="location.href='http://www.google.com';" />
         
         <div className="nav">
           <a href="#contact">Contact</a>
