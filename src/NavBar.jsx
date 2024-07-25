@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../public/logo/logo-transparent-png.png";
+import { Link } from "react-router-dom";
 
 export default function NavBar(){
   function book(params) {
@@ -8,13 +9,15 @@ export default function NavBar(){
   return(
     <>
       <div className="Header--container">
-        <img className="logo--img" src={ logo } alt="logo" />
+        <Link className="logo--link" to="/cryptopia">
+          <img className="logo--img" src={ logo } alt="logo"/>
+        </Link>
         
         <div className="nav">
           <a href="#contact">Contact</a>
           <a className="m-d" href="#plan">Plans</a>
           <a className="m-d" href="#about">About</a>
-          <a href="/FAQ.html">FAQ</a>
+          <Link to="/cryptopia/FAQ">FAQ</Link>
           <button 
             className="download--button m-d"
             onClick={book}

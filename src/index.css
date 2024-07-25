@@ -555,6 +555,10 @@ a:active{
   align-items: center;
 }
 
+.logo--link{
+  height: 100%;
+}
+
 
 @media (max-width: 1350px) {
   .premium--element{

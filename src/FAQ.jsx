@@ -20,14 +20,15 @@ function FAQ(){
 
   return(
     <>
-    <NavBar />
+    <main>
+
     <div className="faq--element-container">
       {faqData}
     </div>
 
-    <Footer />
+    </main>
     </>
   )
 }
 
-ReactDOM.render(<FAQ/>, document.getElementById('root-faq'))
+export default FAQ;
