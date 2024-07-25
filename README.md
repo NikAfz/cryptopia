@@ -1,8 +1,9 @@
 # Cryptopia
 
-this project is a live crypto market created via React.js and Coin Gecko API.
 
-you can visit the page at : https://nikafz.github.io/cryptopia/
+this portfolio project is a live crypto market created via React.js and Coin Gecko API. View the live demo [here](https://nikafz.github.io/cryptopia). 
+
+To run locally, clone the repo, install dependencies, and start the server.
 
 
 desktop mode:
