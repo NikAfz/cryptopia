@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../public/logo/logo-transparent-png.png";
 
 export default function Footer() {
   return(
@@ -7,7 +8,7 @@ export default function Footer() {
 
       <div className="footer--left">
         <div className="site--info" id="about">
-          <img src="../logo/logo-transparent-svg.svg" alt="logo" />
+          <img src={logo} alt="logo" />
           <div className="site--info-txt">
             <div className="side--line"></div>
             <p>
