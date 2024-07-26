@@ -2,6 +2,7 @@ import React from "react";
 import CoinList from "./CoinList";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import SkeletonList from "./Skeleton";
 
 
 export default function CoinListElements() {
@@ -20,7 +21,8 @@ export default function CoinListElements() {
   },[])
   
   if(!data) return (
-    <h1 className="null" >API is not connecting</h1>
+    // <h1 className="null" >API is not connecting</h1>
+    <SkeletonList/>
   )
 
 
