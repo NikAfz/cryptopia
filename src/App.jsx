@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 import Home from "./Home";
-import FAQ from "./FAQ"
-import Page404 from "./page404";
+import FAQ from "./FAQ";
+import Page404 from "./404";
 
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
