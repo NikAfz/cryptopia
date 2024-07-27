@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ton_symbol from "../public/icon/ton_symbol.png";
+import cryptopia_icon from "./assets/cryptopia-main-icon.png";
 function Page404(props) {
   return (
     <>
@@ -7,7 +7,7 @@ function Page404(props) {
 
       <div className="t404--container">
         <h1>4</h1>
-        <img src={ton_symbol} alt="0" />
+        <img src={cryptopia_icon} alt="0" />
         <h1>4</h1>
       </div>
       <p>
