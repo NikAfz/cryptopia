@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import SearchIcon from '@mui/icons-material/Search';
+import { Search } from "@mui/icons-material";
 
 export default function SearchBar() {
 
@@ -11,7 +13,7 @@ export default function SearchBar() {
     <div className="search--container">
       <input className="search--inp"  type="text" placeholder="Search" onChange={handleInputChange} />
       <button className="search--button" >
-        <img className="search--icon" src="../icon/magnifyingglass.png" alt="search" />
+        <Search fontSize="large"/>
       </button>
     </div>
   )
